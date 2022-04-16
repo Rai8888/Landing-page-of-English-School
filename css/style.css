@@ -26,6 +26,7 @@ html body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  margin-top: 40px;
 }
 .header__list {
   display: flex;
@@ -39,11 +40,17 @@ html body {
   margin-right: 0;
 }
 .header__link {
-  text-decoration: none;
-  color: #263238;
+  /*color: #263238;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 24px;*/
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgb(38, 50, 56);
+  position: relative;
 }
 .header__link:hover {
   
@@ -51,16 +58,29 @@ html body {
 }
 
 .header__button {
-  text-decoration: none;
+  /*text-decoration: none;
   color: #263238;
   outline: 2px solid #263238;
   border-radius: 5px;
-  padding: 12px 40px;
+  
   width: 160px;
   height: 50px;
   font-size: 18px;
   line-height: 27px;
-  font-weight: 400;
+  font-weight: 400;*/
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000;
+    padding: 17px 57px;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 18px;
+
+
 }
 .header__button:hover {
   background-color: #263238;
@@ -72,7 +92,7 @@ html body {
 }
 
 .logo__picture {
-  width: 85px;
+  width: 105px;
 }
 
 .main {
@@ -248,12 +268,13 @@ html body {
 }
 
 .about {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .about__headline {
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 80px;
+  margin-left: 200px;
 }
 .about__information {
   width: 540px;
