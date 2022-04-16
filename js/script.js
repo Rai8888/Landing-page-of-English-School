@@ -1,11 +1,6 @@
 'use strict';
 
-/**
- *
- * @menuBurger - открывает и закрывает меню в адаптивной верстке (с max-width: 776px.).
- * Работает при нажатии кнопки на кнопку меню (три полоски) и на кнопку закрытие (крестик).
- *
- */
+
 
 const menuBurger = () => {
     const menuHamburger = document.querySelector(".menu__burger");
